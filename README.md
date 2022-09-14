@@ -42,6 +42,8 @@
 │   ├── preprocess.py
 │   ├── train.py
 │   ├── utils.py
+├── inference.sh
+├── train.sh
       .
       .
       .
