@@ -8,11 +8,10 @@
 
 ## Pipeline
 
-## 만약 모델의 구현을 재현할 경우
-- train.sh 실행
+### Usage
+- `train.sh` : If the trained model not exist, reproduce the model
+- `inference.sh` : If the trained model exist, only inference without training
 
-## 학습된 모델이 존재한다면 학습없이 Inference만 할 경우
-- inference.sh
 
 ### 1. Setting Environment
 - python version >= 3.6
