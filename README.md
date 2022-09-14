@@ -9,8 +9,8 @@
 ## Pipeline
 
 ### Usage
-- `train.sh` : If the trained model not exist, reproduce the model
-- `inference.sh` : If the trained model exist, only inference without training
+- `train.sh` : If the trained model not exist, reproduce the model.
+- `inference.sh` : If the trained model exist, only inference without training.
 
 
 ### 1. Setting Environment
