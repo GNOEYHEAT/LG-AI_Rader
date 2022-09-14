@@ -6,49 +6,6 @@
 * 주관 : DACON
 * [https://dacon.io/competitions/official/235927/overview/description](https://dacon.io/competitions/official/235927/overview/description)
 
-## Directory Structure
-<pre><code>
-/workspace
-├── model
-│   ├── clean
-│   │   ├── level0
-│   │   ├── level1
-│   ├── noise
-│   │   ├── level0
-│   │   ├── level1
-├── open
-│   ├── meta
-│   │   ├── sample_submission.csv
-│   │   ├── test.csv
-│   │   ├── train.csv
-├── output
-│   ├── clean
-│   │   ├── submission.csv
-│   ├── final
-│   │   ├── submission.csv
-│   ├── noise
-│   │   ├── submission.csv
-├── refine
-│   ├── clean
-│   │   ├── raw
-│   │   ├── scale
-│   ├── noise
-│   │   ├── raw
-│   │   ├── scale
-├── src
-│   ├── feature.py
-│   ├── inference.py
-│   ├── model.py
-│   ├── preprocess.py
-│   ├── train.py
-│   ├── utils.py
-├── inference.sh
-├── train.sh
-      .
-      .
-      .
-</code></pre>
-
 ## Pipeline
 
 ## 만약 모델의 구현을 재현할 경우
@@ -115,3 +72,46 @@ lightgbm==3.3.2
 xgboost==1.6.1
 catboost==1.0.6
 ```
+
+## Directory Structure
+<pre><code>
+/workspace
+├── model
+│   ├── clean
+│   │   ├── level0
+│   │   ├── level1
+│   ├── noise
+│   │   ├── level0
+│   │   ├── level1
+├── open
+│   ├── meta
+│   │   ├── sample_submission.csv
+│   │   ├── test.csv
+│   │   ├── train.csv
+├── output
+│   ├── clean
+│   │   ├── submission.csv
+│   ├── final
+│   │   ├── submission.csv
+│   ├── noise
+│   │   ├── submission.csv
+├── refine
+│   ├── clean
+│   │   ├── raw
+│   │   ├── scale
+│   ├── noise
+│   │   ├── raw
+│   │   ├── scale
+├── src
+│   ├── feature.py
+│   ├── inference.py
+│   ├── model.py
+│   ├── preprocess.py
+│   ├── train.py
+│   ├── utils.py
+├── inference.sh
+├── train.sh
+      .
+      .
+      .
+</code></pre>
