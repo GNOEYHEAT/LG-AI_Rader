@@ -6,52 +6,48 @@
 * 주관 : DACON
 * [https://dacon.io/competitions/official/235927/overview/description](https://dacon.io/competitions/official/235927/overview/description)
 
-## Pipeline
-
-### Usage
+## Usage
 - `train.sh` : If the trained model not exist, reproduce the model.
 - `inference.sh` : If the trained model exist, only inference without training.
 
+## Pipeline
 
-### 1. Setting Environment
+### Setting Environment
 - python version >= 3.6
 
-#### 1-1. Make virtual env
-``` 
+#### Make virtual env
+```
 $ python3 -m venv pyenv
 $ source ./pyenv/bin/activate
-``` 
-#### 1-2. Install requirements
-``` 
+```
+
+#### Install requirements
+```
 $ (pyenv) pip install --upgrade pip
 $ (pyenv) pip install -r requirements.txt 
-``` 
-#### 1-3. Train Run Shell
+```
 
-``` 
+#### Train Run Shell
+```
 $ (pyenv) sh ./train.sh
-``` 
-
+```
 or
-
-``` 
+```
 $ (pyenv) python ./src/preprocess.py
 $ (pyenv) python ./src/train.py
-``` 
+```
 
-#### 1-4. Inference Run Shell
-``` 
+#### Inference Run Shell
+```
 $ (pyenv) sh ./inference.sh
-``` 
-
+```
 or
-
-``` 
+```
 $ (pyenv) python ./src/preprocess.py
 $ (pyenv) python ./src/inference.py
-``` 
+```
 
-### 2. py file
+### File Description
 ```
 feature.py : feature engineering class py
 model.py : model class py
@@ -61,7 +57,7 @@ utils.py : utils func py
 inference.py : inference activate code
 ```
 
-### 3. requirements.txt
+### Requirements
 ```
 numpy
 pandas
