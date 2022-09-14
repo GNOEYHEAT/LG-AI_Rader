@@ -6,7 +6,7 @@
 * 주관 : DACON
 * [https://dacon.io/competitions/official/235927/overview/description](https://dacon.io/competitions/official/235927/overview/description)
 
-## Data structure
+## Directory Structure
 <pre><code>
 /workspace
 ├── model
